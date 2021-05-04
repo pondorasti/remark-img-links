@@ -1,4 +1,4 @@
-import visit from "unist-util-visit"
+const visit = require("unist-util-visit")
 
 module.exports = function (options) {
   if (!options || !options.absolutePath) {
