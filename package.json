@@ -4,7 +4,7 @@
   "description": "Prefix relative image paths with an absolute URL.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "dependencies": {
     "unist-util-visit": "1.4.0"
@@ -23,5 +23,10 @@
     "link"
   ],
   "author": "Alexandru Turcanu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "tape": "^5.2.2"
+  }
 }
