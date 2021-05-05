@@ -30,7 +30,7 @@ remark()
 
 ### Yields
 ```html
-<img src="https://cdn.domain.com/images/screenshot.png" alt="Screenshot">
+<p><img src="https://cdn.domain.com/images/screenshot.png" alt="Screenshot"></p>
 ```
 
 ## API
