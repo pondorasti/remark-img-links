@@ -6,7 +6,7 @@ module.exports = function (options) {
   }
 
   function visitor(node) {
-    node.url = options.absolutePath + node.url
+    node.url = new URL(node.url, options.absolutePath).href
   }
 
   function transform(tree) {
