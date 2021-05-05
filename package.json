@@ -25,6 +25,7 @@
   "author": "Alexandru Turcanu",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^2.2.1",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "tape": "^5.2.2"
