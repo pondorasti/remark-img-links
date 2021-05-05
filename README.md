@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/v/@pondorasti/remark-img-links.svg)](https://www.npmjs.com/package/@pondorasti/remark-img-links)
 [![Size](https://img.shields.io/bundlephobia/minzip/@pondorasti/remark-img-links.svg)](https://bundlephobia.com/result?p=@pondorasti/remark-img-links)
 
-# remark-img-lings
+# remark-img-links
 
 [**remark**](https://github.com/remarkjs/remark) plugin to prefix relative image paths with an absolute URL.
 
