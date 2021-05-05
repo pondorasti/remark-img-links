@@ -1,3 +1,4 @@
+[![Build](https://github.com/Pondorasti/remark-img-links/workflows/main/badge.svg)](https://github.com/Pondorasti/remark-img-links/actions)
 [![NPM](https://img.shields.io/npm/v/@pondorasti/remark-img-links.svg)](https://www.npmjs.com/package/@pondorasti/remark-img-links)
 [![Size](https://img.shields.io/bundlephobia/minzip/@pondorasti/remark-img-links.svg)](https://bundlephobia.com/result?p=@pondorasti/remark-img-links)
 
