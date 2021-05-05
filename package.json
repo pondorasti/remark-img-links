@@ -4,7 +4,8 @@
   "description": "Prefix relative image paths with an absolute URL.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "lint": "npx eslint . --ext .js --fix"
   },
   "dependencies": {
     "unist-util-visit": "1.4.0"
@@ -25,6 +26,11 @@
   "author": "Alexandru Turcanu",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.2.1",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",

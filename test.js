@@ -1,7 +1,7 @@
 const test = require("tape")
 const remark = require("remark")
 const html = require("remark-html")
-const imgLinks = require("./")
+const imgLinks = require(".")
 
 test("remark-img-links", function (t) {
   t.plan(1)
