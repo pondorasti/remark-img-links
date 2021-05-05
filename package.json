@@ -4,9 +4,10 @@
   "description": "Prefix relative image paths with an absolute URL.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "lint": "npx eslint . --ext .js",
+    "lint:fix": "npx eslint . --ext .js --fix",
     "test:coverage": "nyc --reporter lcov tape test.js",
-    "lint": "npx eslint . --ext .js --fix"
+    "test": "npm run lint && npm run test:coverage"
   },
   "dependencies": {
     "unist-util-visit": "1.4.0"
