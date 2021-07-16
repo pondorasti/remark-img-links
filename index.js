@@ -2,7 +2,10 @@ const visit = require("unist-util-visit")
 
 module.exports = function (options) {
   function visitor(node) {
-    node.url = new URL(node.url.replace(/^\//, ""), options.absolutePath).href
+    // Sanitize URL by removing leading `/`
+    const relativeUrl = node.url.replace(/^\//, "")
+    
+    node.url = new URL(relativeUrl, options.absolutePath).href
   }
 
   function transform(tree) {
