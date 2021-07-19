@@ -4,7 +4,7 @@ const html = require("remark-html")
 const imgLinks = require(".")
 
 test("remark-img-links", async function (t) {
-  t.plan(3)
+  t.plan(4)
 
   remark()
     .use(imgLinks, { absolutePath: "https://cdn.domain.com/" })
