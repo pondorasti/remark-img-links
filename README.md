@@ -1,4 +1,4 @@
-[![Build](https://github.com/Pondorasti/remark-img-links/workflows/main/badge.svg)](https://github.com/Pondorasti/remark-img-links/actions)
+[![Lint and Test](https://github.com/Pondorasti/remark-img-links/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/Pondorasti/remark-img-links/actions/workflows/main.yaml)
 [![NPM](https://img.shields.io/npm/v/@pondorasti/remark-img-links.svg)](https://www.npmjs.com/package/@pondorasti/remark-img-links)
 [![NPM Downloads](https://img.shields.io/npm/dm/@pondorasti/remark-img-links)](https://www.npmjs.com/package/@pondorasti/remark-img-links)
 [![Size](https://img.shields.io/bundlephobia/minzip/@pondorasti/remark-img-links.svg)](https://bundlephobia.com/result?p=@pondorasti/remark-img-links)
