@@ -13,7 +13,7 @@ test("remark-img-links", async function (t) {
       const expectedYield = '<p><img src="https://cdn.domain.com/images/screenshot.png" alt="Screenshot"></p>\n'
       t.equal(String(file), expectedYield)
     })
-  
+
   remark()
     .use(imgLinks, { absolutePath: "https://cdn.domain.com/assets/" })
     .use(html)
