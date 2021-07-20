@@ -1,6 +1,6 @@
 {
   "name": "@pondorasti/remark-img-links",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Prefix relative image paths with an absolute URL.",
   "main": "index.js",
   "scripts": {
